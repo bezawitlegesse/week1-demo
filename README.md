@@ -9,13 +9,18 @@ A Python notebook that loads a raw CSV dataset, cleans it with functions, and an
 4. Prints a ranked report
 
 ## How to run
-**Colab:** upload `week1.ipynb` to colab.research.google.com and choose Runtime > Run all.
 
-**Locally:**
-python -m venv .venv
-pip install -r requirements.txt
-Open week1.ipynb and run all cells.
+### In Google Colab
+1. Tap the "Open in Colab" badge at the top of `week1.ipynb`, or upload the file to colab.research.google.com.
+2. Choose Runtime > Run all.
+3. The notebook writes `requirements.txt`, creates a virtual environment (`.venv`), and installs the packages into it.
+
+### Locally
+1. Create a virtual environment: `python -m venv .venv`
+2. Activate it: `source .venv/bin/activate` (Mac/Linux) or `.venv\Scripts\activate` (Windows)
+3. Install the packages: `pip install -r requirements.txt`
+4. Open `week1.ipynb` and run all cells.
 
 ## Files
 - `week1.ipynb`: the notebook
-- `requirements.txt`: dependencies (numpy, ipykernel)
+- `requirements.txt`: dependencies (ipykernel, numpy, requests)
